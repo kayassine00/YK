@@ -59,7 +59,7 @@
 
         private function loadHelpers()
         {
-            $this->file->fromMainpathTo('Helpers.php');
+            $this->file->fromMainPathToVendor('Helpers.php');
         }
 
     }
